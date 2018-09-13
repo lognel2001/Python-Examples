@@ -31,7 +31,7 @@ avg=sum 1/6
 
 
 
-
+ 
 
 
 input()
