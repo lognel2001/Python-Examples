@@ -26,13 +26,28 @@ score3=input("score")
 score4=input("score")
 score5=input("score")
 score6=input("score")
-sum= int(score1)+(score2)+int(score3)+int(score4)+int(score5)+int(score6)
-avg=sum 1/6
+sumx = int(score1)+int(score2)+int(score3)+int(score4)+int(score5)+int(score6)
+avg=sumx / 6
 
+def grade():
 
-
+    if avg >= 90:
+        grade = "A"
+        return grade
+    elif avg >= 80 and avg< 90:
+        grade = "B"
+        return grade
+    elif avg >= 70 and avg< 80:
+        grade = "C"
+        return grade
+    elif avg >= 60 and avg< 70:
+        grade = "D"
+        return grade
+    else:
+        grade = "F"
+        return grade
  
-
+print ("your grade is an: ", grade())
 
 input()
       
